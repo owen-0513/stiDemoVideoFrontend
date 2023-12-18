@@ -1,17 +1,12 @@
 <template>
   <div id="app">
-    <VideoPlayer />
+    <router-view />
   </div>
 </template>
 
 <script>
-  import VideoPlayer from "./components/VideoPlayer";
-
   export default {
-    name: "App",
-    components: {
-      VideoPlayer
-    }
+    name: "App"
   };
 </script>
 
